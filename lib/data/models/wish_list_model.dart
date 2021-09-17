@@ -3,7 +3,7 @@ class WishListItem {
   final String title;
   final double price;
   final String imgUrl;
-  WishListItem(
+  const WishListItem(
       {required this.id,
       required this.title,
       required this.price,
